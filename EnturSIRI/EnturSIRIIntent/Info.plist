@@ -34,6 +34,7 @@
 				<string>INRequestRideIntent</string>
 				<string>NextBusIntent</string>
 				<string>NextBusUtanFraIntent</string>
+				<string>NextBusesIntent</string>
 			</array>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>

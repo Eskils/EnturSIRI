@@ -16,8 +16,13 @@ class IntentHandler: INExtension  {
         
         
         guard intent is NextBusIntent else {
+            
+            guard intent is NextBusesIntent else {
 
-            return NextBusUtanFraHandler()
+                return NextBusUtanFraHandler()
+            }
+            
+            return NextBusesHandler()
         }
         
 

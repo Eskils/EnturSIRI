@@ -8,8 +8,18 @@
 
 import UIKit
 import os.log
+import Intents
 
 class NextBusHandler: NSObject, NextBusIntentHandling {
+    
+    func resolveFra(for intent: NextBusIntent, with completion: @escaping (INStringResolutionResult) -> Void) {
+        os_log("Handter Fra!")
+    }
+    
+    func resolveTil(for intent: NextBusIntent, with completion: @escaping (INStringResolutionResult) -> Void) {
+        os_log("Handterer Til!")
+    }
+    
 
     func handle(intent: NextBusIntent, completion: @escaping (NextBusIntentResponse) -> Void) {
         let NB = intent

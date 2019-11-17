@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,14 +22,19 @@
 		DA8330AE21E678B900DD9346 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8330AD21E678B900DD9346 /* IntentsUI.framework */; };
 		DA8330B121E678B900DD9346 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8330B021E678B900DD9346 /* IntentViewController.swift */; };
 		DA8330B421E678B900DD9346 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8330B221E678B900DD9346 /* MainInterface.storyboard */; };
-		DA8330B821E678B900DD9346 /* EnturSIRIIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DA8330AB21E678B900DD9346 /* EnturSIRIIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DA8330BB21E678B900DD9346 /* EnturSIRIIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DA8330A221E678B800DD9346 /* EnturSIRIIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA8330B821E678B900DD9346 /* EnturSIRIIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DA8330AB21E678B900DD9346 /* EnturSIRIIntentUI.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA8330BB21E678B900DD9346 /* EnturSIRIIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DA8330A221E678B800DD9346 /* EnturSIRIIntent.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DA8330C421E678F200DD9346 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DA8330C321E678F200DD9346 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (codegen, ); }; };
 		DA8330CA21E67F7E00DD9346 /* EnturAPIFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8330C921E67F7D00DD9346 /* EnturAPIFetch.m */; };
 		DA8330CC21EAB1CC00DD9346 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DA8330C321E678F200DD9346 /* Intents.intentdefinition */; };
 		DA8330CD21EAB1D500DD9346 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DA8330C321E678F200DD9346 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (codegen, ); }; };
 		DAC1C9EB2233105C00DD58B7 /* NextBusUtenFraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1C9EA2233105C00DD58B7 /* NextBusUtenFraHandler.swift */; };
 		DAC1C9ED22332D2C00DD58B7 /* LoadingModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1C9EC22332D2C00DD58B7 /* LoadingModal.swift */; };
+		DAEE113923537955005C742F /* round_directions_bus_black_48pt.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEE113823537955005C742F /* round_directions_bus_black_48pt.xcassets */; };
+		DAEE113A2353795D005C742F /* round_directions_bus_black_48pt.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEE113823537955005C742F /* round_directions_bus_black_48pt.xcassets */; };
+		DAEE113B2353795E005C742F /* round_directions_bus_black_48pt.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEE113823537955005C742F /* round_directions_bus_black_48pt.xcassets */; };
+		DAEE113D23537999005C742F /* Hjelpefunksjonar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE113C23537999005C742F /* Hjelpefunksjonar.swift */; };
+		DAEE113F23538B59005C742F /* NextBusesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE113E23538B58005C742F /* NextBusesHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +98,9 @@
 		DA8330CB21E6819800DD9346 /* EnturSIRI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnturSIRI.entitlements; sourceTree = "<group>"; };
 		DAC1C9EA2233105C00DD58B7 /* NextBusUtenFraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextBusUtenFraHandler.swift; sourceTree = "<group>"; };
 		DAC1C9EC22332D2C00DD58B7 /* LoadingModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingModal.swift; sourceTree = "<group>"; };
+		DAEE113823537955005C742F /* round_directions_bus_black_48pt.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = round_directions_bus_black_48pt.xcassets; sourceTree = "<group>"; };
+		DAEE113C23537999005C742F /* Hjelpefunksjonar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Hjelpefunksjonar.swift; path = EnturSIRIIntent/Hjelpefunksjonar.swift; sourceTree = SOURCE_ROOT; };
+		DAEE113E23538B58005C742F /* NextBusesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextBusesHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +166,9 @@
 				DA83308F21E51A8D00DD9346 /* Assets.xcassets */,
 				DA83309121E51A8D00DD9346 /* LaunchScreen.storyboard */,
 				DA83309421E51A8D00DD9346 /* Info.plist */,
+				DAEE113C23537999005C742F /* Hjelpefunksjonar.swift */,
 				DA83309A21E51C7A00DD9346 /* EnturSIRI-Bridging-Header.h */,
+				DAEE113823537955005C742F /* round_directions_bus_black_48pt.xcassets */,
 			);
 			path = EnturSIRI;
 			sourceTree = "<group>";
@@ -169,6 +179,7 @@
 				DA8330A421E678B800DD9346 /* IntentHandler.swift */,
 				DA37C26121EBA3870051447F /* NextBusHandler.swift */,
 				DAC1C9EA2233105C00DD58B7 /* NextBusUtenFraHandler.swift */,
+				DAEE113E23538B58005C742F /* NextBusesHandler.swift */,
 				DA8330C821E67F7D00DD9346 /* EnturAPIFetch.h */,
 				DA8330C921E67F7D00DD9346 /* EnturAPIFetch.m */,
 				DA8330C321E678F200DD9346 /* Intents.intentdefinition */,
@@ -311,6 +322,7 @@
 				DA83309321E51A8D00DD9346 /* LaunchScreen.storyboard in Resources */,
 				DA83309021E51A8D00DD9346 /* Assets.xcassets in Resources */,
 				DA83308E21E51A8D00DD9346 /* Main.storyboard in Resources */,
+				DAEE113923537955005C742F /* round_directions_bus_black_48pt.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEE113A2353795D005C742F /* round_directions_bus_black_48pt.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8330B421E678B900DD9346 /* MainInterface.storyboard in Resources */,
+				DAEE113B2353795E005C742F /* round_directions_bus_black_48pt.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEE113D23537999005C742F /* Hjelpefunksjonar.swift in Sources */,
 				DA83309D21E51C7D00DD9346 /* EnturAPIFetch.m in Sources */,
 				DA83308B21E51A8D00DD9346 /* ViewController.swift in Sources */,
 				DAC1C9ED22332D2C00DD58B7 /* LoadingModal.swift in Sources */,
@@ -349,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEE113F23538B59005C742F /* NextBusesHandler.swift in Sources */,
 				DA8330CA21E67F7E00DD9346 /* EnturAPIFetch.m in Sources */,
 				DA8330C421E678F200DD9346 /* Intents.intentdefinition in Sources */,
 				DA37C26221EBA3870051447F /* NextBusHandler.swift in Sources */,
@@ -371,11 +387,13 @@
 /* Begin PBXTargetDependency section */
 		DA8330B721E678B900DD9346 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = DA8330AA21E678B900DD9346 /* EnturSIRIIntentUI */;
 			targetProxy = DA8330B621E678B900DD9346 /* PBXContainerItemProxy */;
 		};
 		DA8330BA21E678B900DD9346 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = DA8330A121E678B800DD9346 /* EnturSIRIIntent */;
 			targetProxy = DA8330B921E678B900DD9346 /* PBXContainerItemProxy */;
 		};
@@ -533,6 +551,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = EnturSIRI/EnturSIRI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = EUKTZ7725R;
 				INFOPLIST_FILE = EnturSIRI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -541,6 +560,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SIGABRT.EnturSIRI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "EnturSIRI/EnturSIRI-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -556,6 +577,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = EnturSIRI/EnturSIRI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = EUKTZ7725R;
 				INFOPLIST_FILE = EnturSIRI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -564,6 +586,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SIGABRT.EnturSIRI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "EnturSIRI/EnturSIRI-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -584,6 +608,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SIGABRT.EnturSIRI.EnturSIRIIntentUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -603,6 +629,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SIGABRT.EnturSIRI.EnturSIRIIntentUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -623,6 +651,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SIGABRT.EnturSIRI.EnturSIRIIntent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "EnturSIRIIntent/EnturSIRIIntent-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -645,6 +675,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SIGABRT.EnturSIRI.EnturSIRIIntent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "EnturSIRIIntent/EnturSIRIIntent-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

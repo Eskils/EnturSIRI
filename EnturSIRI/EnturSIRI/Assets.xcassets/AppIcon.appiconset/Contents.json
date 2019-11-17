@@ -1,128 +1,122 @@
 {
-    "images":[
-        {
-            "idiom":"iphone",
-            "size":"20x20",
-            "scale":"2x",
-            "filename":"Icon-App-20x20@2x.png"
-        },
-        {
-            "idiom":"iphone",
-            "size":"20x20",
-            "scale":"3x",
-            "filename":"Icon-App-20x20@3x.png"
-        },
-        {
-            "idiom":"iphone",
-            "size":"29x29",
-            "scale":"1x",
-            "filename":"Icon-App-29x29@1x.png"
-        },
-        {
-            "idiom":"iphone",
-            "size":"29x29",
-            "scale":"2x",
-            "filename":"Icon-App-29x29@2x.png"
-        },
-        {
-            "idiom":"iphone",
-            "size":"29x29",
-            "scale":"3x",
-            "filename":"Icon-App-29x29@3x.png"
-        },
-        {
-            "idiom":"iphone",
-            "size":"40x40",
-            "scale":"2x",
-            "filename":"Icon-App-40x40@2x.png"
-        },
-        {
-            "idiom":"iphone",
-            "size":"40x40",
-            "scale":"3x",
-            "filename":"Icon-App-40x40@3x.png"
-        },
-        {
-            "idiom":"iphone",
-            "size":"60x60",
-            "scale":"2x",
-            "filename":"Icon-App-60x60@2x.png"
-        },
-        {
-            "idiom":"iphone",
-            "size":"60x60",
-            "scale":"3x",
-            "filename":"Icon-App-60x60@3x.png"
-        },
-        {
-            "idiom":"iphone",
-            "size":"76x76",
-            "scale":"2x",
-            "filename":"Icon-App-76x76@2x.png"
-        },
-        {
-            "idiom":"ipad",
-            "size":"20x20",
-            "scale":"1x",
-            "filename":"Icon-App-20x20@1x.png"
-        },
-        {
-            "idiom":"ipad",
-            "size":"20x20",
-            "scale":"2x",
-            "filename":"Icon-App-20x20@2x.png"
-        },
-        {
-            "idiom":"ipad",
-            "size":"29x29",
-            "scale":"1x",
-            "filename":"Icon-App-29x29@1x.png"
-        },
-        {
-            "idiom":"ipad",
-            "size":"29x29",
-            "scale":"2x",
-            "filename":"Icon-App-29x29@2x.png"
-        },
-        {
-            "idiom":"ipad",
-            "size":"40x40",
-            "scale":"1x",
-            "filename":"Icon-App-40x40@1x.png"
-        },
-        {
-            "idiom":"ipad",
-            "size":"40x40",
-            "scale":"2x",
-            "filename":"Icon-App-40x40@2x.png"
-        },
-        {
-            "idiom":"ipad",
-            "size":"76x76",
-            "scale":"1x",
-            "filename":"Icon-App-76x76@1x.png"
-        },
-        {
-            "idiom":"ipad",
-            "size":"76x76",
-            "scale":"2x",
-            "filename":"Icon-App-76x76@2x.png"
-        },
-        {
-            "idiom":"ipad",
-            "size":"83.5x83.5",
-            "scale":"2x",
-            "filename":"Icon-App-83.5x83.5@2x.png"
-        },
-        {
-          "size" : "1024x1024",
-          "idiom" : "ios-marketing",
-          "scale" : "1x",
-          "filename" : "ItunesArtwork@2x.png"
-        }
-    ],
-    "info":{
-        "version":1,
-        "author":"makeappicon"
+  "images" : [
+    {
+      "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "EnturSIRIAppikon-40x17.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "EnturSIRIAppikon-60x16.png",
+      "scale" : "3x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "EnturSIRIAppikon-29x7.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "EnturSIRIAppikon-58x6.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "EnturSIRIAppikon-87x14.png",
+      "scale" : "3x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "EnturSIRIAppikon-80x13.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "EnturSIRIAppikon-120x12.png",
+      "scale" : "3x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "EnturSIRIAppikon-120x11.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "EnturSIRIAppikon-180x10.png",
+      "scale" : "3x"
+    },
+    {
+      "size" : "20x20",
+      "idiom" : "ipad",
+      "filename" : "EnturSIRIAppikon-20x9.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "20x20",
+      "idiom" : "ipad",
+      "filename" : "EnturSIRIAppikon-40x8.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "EnturSIRIAppikon-29x7-1.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "EnturSIRIAppikon-58x15.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "EnturSIRIAppikon-40x5.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "EnturSIRIAppikon-80x4.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "EnturSIRIAppikon-76x3.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "EnturSIRIAppikon-152x2.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "83.5x83.5",
+      "idiom" : "ipad",
+      "filename" : "EnturSIRIAppikon-167x1.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "1024x1024",
+      "idiom" : "ios-marketing",
+      "filename" : "EnturSIRIAppikon.png",
+      "scale" : "1x"
     }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
 }

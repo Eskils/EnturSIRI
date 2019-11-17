@@ -5,20 +5,24 @@
 	<key>INEnums</key>
 	<array/>
 	<key>INIntentDefinitionModelVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
+	<key>INIntentDefinitionNamespace</key>
+	<string>EyyClC</string>
 	<key>INIntentDefinitionSystemVersion</key>
-	<string>18D109</string>
+	<string>19A582a</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>10B61</string>
+	<string>11B41</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>10.1</string>
+	<string>11.2</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
 			<key>INIntentCategory</key>
 			<string>search</string>
+			<key>INIntentDefaultImageName</key>
+			<string>round_directions_bus_black_48pt</string>
 			<key>INIntentDescription</key>
-			<string>A request to find out when next bus goes</string>
+			<string>A request to find out when next bus leaves.</string>
 			<key>INIntentDescriptionID</key>
 			<string>piJaui</string>
 			<key>INIntentLastParameterTag</key>
@@ -27,18 +31,25 @@
 			<string>NextBus</string>
 			<key>INIntentParameterCombinations</key>
 			<dict>
+				<key></key>
+				<dict>
+					<key>INIntentParameterCombinationIsLinked</key>
+					<true/>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+				</dict>
 				<key>til,fra</key>
 				<dict>
 					<key>INIntentParameterCombinationIsPrimary</key>
 					<true/>
 					<key>INIntentParameterCombinationSubtitle</key>
-					<string></string>
+					<string>Shows the next bus from ${fra} to ${til}.</string>
 					<key>INIntentParameterCombinationSubtitleID</key>
-					<string>siGIT9</string>
+					<string>PZ3jEj</string>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>When is next bus from ${fra} to ${til}</string>
+					<string>When is next bus from ${fra} to ${til}?</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>liu5jl</string>
 				</dict>
@@ -46,24 +57,38 @@
 			<key>INIntentParameters</key>
 			<array>
 				<dict>
+					<key>INIntentParameterDisplayName</key>
+					<string>Fra</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>FqBTfd</string>
 					<key>INIntentParameterDisplayPriority</key>
 					<integer>1</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>None</string>
+					</dict>
 					<key>INIntentParameterName</key>
 					<string>fra</string>
-					<key>INIntentParameterSupportsMultipleValues</key>
-					<false/>
 					<key>INIntentParameterTag</key>
 					<integer>1</integer>
 					<key>INIntentParameterType</key>
 					<string>String</string>
 				</dict>
 				<dict>
+					<key>INIntentParameterDisplayName</key>
+					<string>Til</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>HpsF87</string>
 					<key>INIntentParameterDisplayPriority</key>
 					<integer>2</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>None</string>
+					</dict>
 					<key>INIntentParameterName</key>
 					<string>til</string>
-					<key>INIntentParameterSupportsMultipleValues</key>
-					<false/>
 					<key>INIntentParameterTag</key>
 					<integer>2</integer>
 					<key>INIntentParameterType</key>
@@ -76,16 +101,6 @@
 				<array>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Sorry, I happened to miss the bus... And could not find any information!</string>
-						<key>INIntentResponseCodeFormatStringID</key>
-						<string>wxFW2o</string>
-						<key>INIntentResponseCodeName</key>
-						<string>failure</string>
-						<key>INIntentResponseCodeSuccess</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>INIntentResponseCodeFormatString</key>
 						<string>Next bus leaves from ${fra} at ${startTime} and arrives in ${til} at ${endTime}</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>J0Pqat</string>
@@ -96,13 +111,19 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
+						<string>Sorry, I happened to miss the bus... And could not find any information!</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>wxFW2o</string>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeFormatString</key>
 						<string>Sorry, I was not able to find any busses...</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>mevHHc</string>
 						<key>INIntentResponseCodeName</key>
 						<string>failureNoData</string>
-						<key>INIntentResponseCodeSuccess</key>
-						<false/>
 					</dict>
 				</array>
 				<key>INIntentResponseLastParameterTag</key>
@@ -114,8 +135,6 @@
 						<integer>1</integer>
 						<key>INIntentResponseParameterName</key>
 						<string>startTime</string>
-						<key>INIntentResponseParameterSupportsMultipleValues</key>
-						<false/>
 						<key>INIntentResponseParameterTag</key>
 						<integer>6</integer>
 						<key>INIntentResponseParameterType</key>
@@ -126,8 +145,6 @@
 						<integer>2</integer>
 						<key>INIntentResponseParameterName</key>
 						<string>fra</string>
-						<key>INIntentResponseParameterSupportsMultipleValues</key>
-						<false/>
 						<key>INIntentResponseParameterTag</key>
 						<integer>7</integer>
 						<key>INIntentResponseParameterType</key>
@@ -138,8 +155,6 @@
 						<integer>3</integer>
 						<key>INIntentResponseParameterName</key>
 						<string>til</string>
-						<key>INIntentResponseParameterSupportsMultipleValues</key>
-						<false/>
 						<key>INIntentResponseParameterTag</key>
 						<integer>8</integer>
 						<key>INIntentResponseParameterType</key>
@@ -150,8 +165,6 @@
 						<integer>4</integer>
 						<key>INIntentResponseParameterName</key>
 						<string>endTime</string>
-						<key>INIntentResponseParameterSupportsMultipleValues</key>
-						<false/>
 						<key>INIntentResponseParameterTag</key>
 						<integer>9</integer>
 						<key>INIntentResponseParameterType</key>
@@ -159,22 +172,22 @@
 					</dict>
 				</array>
 			</dict>
-			<key>INIntentRestrictions</key>
-			<integer>0</integer>
 			<key>INIntentTitle</key>
 			<string>NextBuss</string>
 			<key>INIntentTitleID</key>
 			<string>OyiaE0</string>
 			<key>INIntentType</key>
 			<string>Custom</string>
-			<key>INIntentUserConfirmationRequired</key>
-			<false/>
 			<key>INIntentVerb</key>
-			<string>Search</string>
+			<string>Find</string>
 		</dict>
 		<dict>
 			<key>INIntentCategory</key>
 			<string>search</string>
+			<key>INIntentDefaultImageName</key>
+			<string>round_directions_bus_black_48pt</string>
+			<key>INIntentDescription</key>
+			<string>A request to find out when next bus leaves.</string>
 			<key>INIntentDescriptionID</key>
 			<string>JJQM0T</string>
 			<key>INIntentLastParameterTag</key>
@@ -185,12 +198,6 @@
 			<dict>
 				<key>til</key>
 				<dict>
-					<key>INIntentParameterCombinationIsPrimary</key>
-					<false/>
-					<key>INIntentParameterCombinationSubtitle</key>
-					<string></string>
-					<key>INIntentParameterCombinationSubtitleID</key>
-					<string>hcaj91</string>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
@@ -204,10 +211,13 @@
 				<dict>
 					<key>INIntentParameterDisplayPriority</key>
 					<integer>1</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>None</string>
+					</dict>
 					<key>INIntentParameterName</key>
 					<string>til</string>
-					<key>INIntentParameterSupportsMultipleValues</key>
-					<false/>
 					<key>INIntentParameterTag</key>
 					<integer>1</integer>
 					<key>INIntentParameterType</key>
@@ -220,16 +230,6 @@
 				<array>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Could not find the route.</string>
-						<key>INIntentResponseCodeFormatStringID</key>
-						<string>2KICaK</string>
-						<key>INIntentResponseCodeName</key>
-						<string>failure</string>
-						<key>INIntentResponseCodeSuccess</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>INIntentResponseCodeFormatString</key>
 						<string>Next bus leaves from ${fra} at ${startTime} and arrives in ${til} at ${endTime}</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>SJCoJT</string>
@@ -237,6 +237,14 @@
 						<string>success</string>
 						<key>INIntentResponseCodeSuccess</key>
 						<true/>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Sorry, I happened to miss the bus... And could not find any information!</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>2KICaK</string>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
 					</dict>
 				</array>
 				<key>INIntentResponseLastParameterTag</key>
@@ -248,8 +256,6 @@
 						<integer>1</integer>
 						<key>INIntentResponseParameterName</key>
 						<string>startTime</string>
-						<key>INIntentResponseParameterSupportsMultipleValues</key>
-						<false/>
 						<key>INIntentResponseParameterTag</key>
 						<integer>1</integer>
 						<key>INIntentResponseParameterType</key>
@@ -260,8 +266,6 @@
 						<integer>2</integer>
 						<key>INIntentResponseParameterName</key>
 						<string>endTime</string>
-						<key>INIntentResponseParameterSupportsMultipleValues</key>
-						<false/>
 						<key>INIntentResponseParameterTag</key>
 						<integer>2</integer>
 						<key>INIntentResponseParameterType</key>
@@ -272,8 +276,6 @@
 						<integer>3</integer>
 						<key>INIntentResponseParameterName</key>
 						<string>fra</string>
-						<key>INIntentResponseParameterSupportsMultipleValues</key>
-						<false/>
 						<key>INIntentResponseParameterTag</key>
 						<integer>3</integer>
 						<key>INIntentResponseParameterType</key>
@@ -284,8 +286,6 @@
 						<integer>4</integer>
 						<key>INIntentResponseParameterName</key>
 						<string>til</string>
-						<key>INIntentResponseParameterSupportsMultipleValues</key>
-						<false/>
 						<key>INIntentResponseParameterTag</key>
 						<integer>4</integer>
 						<key>INIntentResponseParameterType</key>
@@ -293,19 +293,177 @@
 					</dict>
 				</array>
 			</dict>
-			<key>INIntentRestrictions</key>
-			<integer>0</integer>
 			<key>INIntentTitle</key>
 			<string>NextBussUtanFra</string>
 			<key>INIntentTitleID</key>
 			<string>mITKvB</string>
 			<key>INIntentType</key>
 			<string>Custom</string>
-			<key>INIntentUserConfirmationRequired</key>
-			<false/>
 			<key>INIntentVerb</key>
-			<string>Search</string>
+			<string>Find</string>
+		</dict>
+		<dict>
+			<key>INIntentCategory</key>
+			<string>search</string>
+			<key>INIntentDefaultImageName</key>
+			<string>round_directions_bus_black_48pt</string>
+			<key>INIntentDescription</key>
+			<string>A request to find out when all the next buses leaves.</string>
+			<key>INIntentDescriptionID</key>
+			<string>Z11zk7</string>
+			<key>INIntentLastParameterTag</key>
+			<integer>3</integer>
+			<key>INIntentName</key>
+			<string>NextBuses</string>
+			<key>INIntentParameterCombinations</key>
+			<dict>
+				<key>til,fra</key>
+				<dict>
+					<key>INIntentParameterCombinationIsPrimary</key>
+					<true/>
+					<key>INIntentParameterCombinationSubtitle</key>
+					<string>Gets all the next buses from ${fra} to ${til}</string>
+					<key>INIntentParameterCombinationSubtitleID</key>
+					<string>NAOSDm</string>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Show me buses from ${fra} to ${til}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>0F3zuz</string>
+				</dict>
+			</dict>
+			<key>INIntentParameters</key>
+			<array>
+				<dict>
+					<key>INIntentParameterDisplayName</key>
+					<string>Til</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>sb26mw</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>1</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>Sentences</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>til</string>
+					<key>INIntentParameterTag</key>
+					<integer>2</integer>
+					<key>INIntentParameterType</key>
+					<string>String</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterDisplayName</key>
+					<string>Fra</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>XENWEs</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>2</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>Sentences</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>fra</string>
+					<key>INIntentParameterTag</key>
+					<integer>3</integer>
+					<key>INIntentParameterType</key>
+					<string>String</string>
+				</dict>
+			</array>
+			<key>INIntentResponse</key>
+			<dict>
+				<key>INIntentResponseCodes</key>
+				<array>
+					<dict>
+						<key>INIntentResponseCodeConciseFormatString</key>
+						<string>Here is a list of buses going from ${fra} to ${til}:  ${tider}</string>
+						<key>INIntentResponseCodeConciseFormatStringID</key>
+						<string>gLB2cP</string>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Here is a list of buses going from ${fra} to ${til}</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>xoNG5H</string>
+						<key>INIntentResponseCodeName</key>
+						<string>success</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Sorry, I happened to miss the bus... And could not find any information!</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>Bua7Jy</string>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
+					</dict>
+				</array>
+				<key>INIntentResponseLastParameterTag</key>
+				<integer>9</integer>
+				<key>INIntentResponseOutput</key>
+				<string>tider</string>
+				<key>INIntentResponseParameters</key>
+				<array>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Fra</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>C1Kw9r</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>1</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>fra</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>1</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Til</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>cv3yFb</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>2</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>til</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>2</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Tider</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>qIxEBQ</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>3</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>tider</string>
+						<key>INIntentResponseParameterSupportsMultipleValues</key>
+						<true/>
+						<key>INIntentResponseParameterTag</key>
+						<integer>8</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+				</array>
+			</dict>
+			<key>INIntentTitle</key>
+			<string>Next Buses</string>
+			<key>INIntentTitleID</key>
+			<string>GaMtID</string>
+			<key>INIntentType</key>
+			<string>Custom</string>
+			<key>INIntentVerb</key>
+			<string>Find</string>
 		</dict>
 	</array>
+	<key>INTypes</key>
+	<array/>
 </dict>
 </plist>

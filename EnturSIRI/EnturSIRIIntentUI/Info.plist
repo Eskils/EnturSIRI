@@ -29,6 +29,7 @@
 				<string>INSendMessageIntent</string>
 				<string>NextBusIntent</string>
 				<string>NextBusUtanFraIntent</string>
+				<string>NextBusesIntent</string>
 			</array>
 		</dict>
 		<key>NSExtensionMainStoryboard</key>

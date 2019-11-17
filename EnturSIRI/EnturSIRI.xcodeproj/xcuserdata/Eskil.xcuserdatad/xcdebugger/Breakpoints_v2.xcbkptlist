@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "438C3E02-6454-4F77-855D-018DA1997F3D"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "9AB2FFDB-5477-415E-91BD-31587E6AE979"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -22,15 +24,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "92D27B16-50CF-415F-AB62-C77676E29EA9"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EnturSIRI/EnturAPIFetch.m"
-            timestampString = "570614076.740252"
+            timestampString = "573826978.365976"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "-finnPlass:lofteHandler:"
             landmarkType = "7">
          </BreakpointContent>
@@ -38,27 +41,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "DB798C43-5C92-499C-B488-A843AB18F9EA"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EnturSIRI/EnturAPIFetch.m"
-            timestampString = "570614076.740441"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "-finnPlass:lofteHandler:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EnturSIRI/EnturAPIFetch.m"
-            timestampString = "570614076.740577"
+            timestampString = "573826978.366078"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "81"
@@ -70,19 +58,38 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "2A307216-124F-48D5-A374-3007B895175C"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EnturSIRI/EnturAPIFetch.m"
-            timestampString = "570614076.740692"
+            timestampString = "573826978.366133"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-finnPlass:lofteHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A26B760F-1323-4858-A2F4-E84F8267043E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            timestampString = "573826978.366176"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "-finnPlass:lofteHandler:"
             landmarkType = "7">
             <Locations>
                <Location
+                  uuid = "A26B760F-1323-4858-A2F4-E84F8267043E - cd02b721f33c14cd"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -98,6 +105,7 @@
                   offsetFromSymbolStart = "484">
                </Location>
                <Location
+                  uuid = "A26B760F-1323-4858-A2F4-E84F8267043E - 78d2c90c7cca69b5"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -113,6 +121,7 @@
                   offsetFromSymbolStart = "24">
                </Location>
                <Location
+                  uuid = "A26B760F-1323-4858-A2F4-E84F8267043E - bb493a497c6ad711"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -133,15 +142,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "F2677ED3-ABEB-4B53-A222-4D86CC0961EB"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EnturSIRI/ViewController.swift"
-            timestampString = "573781224.459448"
+            timestampString = "573826978.36622"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "213"
-            endingLineNumber = "213"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
             landmarkName = "faaFatIString(from:medDag:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -149,15 +159,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "52571AF9-D259-493E-BD18-757F280B302B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EnturSIRI/ViewController.swift"
-            timestampString = "573781224.459927"
+            timestampString = "573826978.3662831"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "257"
-            endingLineNumber = "257"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
             landmarkName = "SettFraTilPosisjon(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -165,17 +176,496 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "BD64F0DF-D585-42E3-B70B-8BC09CB399FE"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EnturSIRI/ViewController.swift"
-            timestampString = "573781224.460339"
+            timestampString = "573826978.366331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "275"
-            endingLineNumber = "275"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
             landmarkName = "SettFraTilPosisjon(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8578825-FE03-4EC6-8AC5-284683E08120"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "searchBarSearchButtonClicked(_:til:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEB4099D-172C-41C7-A580-3BE00D77B2D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "searchBarSearchButtonClicked(_:til:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5589D206-9074-4053-8D02-ED386CBFC8EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "searchBarSearchButtonClicked(_:til:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89E16129-9A8E-4F4D-8D34-B97ACF912666"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "searchBarSearchButtonClicked(_:til:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "89E16129-9A8E-4F4D-8D34-B97ACF912666 - ce139610ea022b46"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EnturSIRI.ViewController.searchBarSearchButtonClicked(_: Swift.String, til: Swift.String) -&gt; ()"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "3876">
+               </Location>
+               <Location
+                  uuid = "89E16129-9A8E-4F4D-8D34-B97ACF912666 - 69138300799cf904"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; () in EnturSIRI.ViewController.searchBarSearchButtonClicked(_: Swift.String, til: Swift.String) -&gt; ()"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A54C1469-BF29-4BEC-B749-B26B258FB3E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "searchBarSearchButtonClicked(_:til:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2ECB15F8-45C2-4531-9D33-A2E96CC7F2A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "searchBarSearchButtonClicked(_:til:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E25F3097-3A2D-4D31-A6EA-6B9DCA59583B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "-lastNedJSON:lofteHandler:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E25F3097-3A2D-4D31-A6EA-6B9DCA59583B - c1e567d38b800066"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[EnturAPIFetch lastNedJSON:lofteHandler:]"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/EnturAPIFetch.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1204">
+               </Location>
+               <Location
+                  uuid = "E25F3097-3A2D-4D31-A6EA-6B9DCA59583B - 84097f52125742e8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42-[EnturAPIFetch lastNedJSON:lofteHandler:]_block_invoke"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/EnturAPIFetch.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C456DB1E-2597-4200-8421-159C9D39E731"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "-lastNedJSON:lofteHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D3F3A70-5480-42F9-AEF8-BDB0C385EECB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "-lastNedJSON:lofteHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4FE17F3-73B9-4C55-ACDC-40D8A49E5FF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "-lastNedJSON:lofteHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "979377AB-ABFE-4110-A277-6A2D90F779A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "-lastNedJSON:lofteHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98278C64-FF63-4328-8B27-E5BE5773D703"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-FinnBusstiderFra:Til:completion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98278C64-FF63-4328-8B27-E5BE5773D703 - 16f38d381c4d0246"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[EnturAPIFetch FinnBusstiderFra:Til:completion:]"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/EnturAPIFetch.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "98278C64-FF63-4328-8B27-E5BE5773D703 - a53edbb5370a8a3b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[EnturAPIFetch FinnBusstiderFra:Til:completion:]_block_invoke"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/EnturAPIFetch.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0B69A17-3B19-447D-8EDC-96BD020F9CE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-FinnBusstiderFra:Til:completion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E0B69A17-3B19-447D-8EDC-96BD020F9CE0 - a53edbb5370a8a3b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[EnturAPIFetch FinnBusstiderFra:Til:completion:]_block_invoke"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/EnturAPIFetch.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "E0B69A17-3B19-447D-8EDC-96BD020F9CE0 - bcaa6fad3e3e14c2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[EnturAPIFetch FinnBusstiderFra:Til:completion:]_block_invoke_2"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/EnturAPIFetch.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "E0B69A17-3B19-447D-8EDC-96BD020F9CE0 - 1c30c9befc068f31"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_e8_32s40s48s"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/EnturAPIFetch.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28AF3C71-DA87-4B57-9392-DAB797A14638"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-FinnBusstiderFra:Til:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C270575C-6685-47AB-BB0C-865C51C7E44E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-FinnBusstiderFra:Til:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E38CB4E-9D20-4789-B6F6-303ED5226A5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-FinnBusstiderFra:Til:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7526C75-F5A7-4A3E-BB8B-62731BA37DCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-FinnBusstiderFra:Til:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C06F1DEB-1856-4F01-B20B-AA7532B53D4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnturSIRI/EnturAPIFetch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-FinnBusstiderFra:Til:completion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C06F1DEB-1856-4F01-B20B-AA7532B53D4B - bcaa6fad3e3e14c2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[EnturAPIFetch FinnBusstiderFra:Til:completion:]_block_invoke_2"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/EnturAPIFetch.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "C06F1DEB-1856-4F01-B20B-AA7532B53D4B - bcaa6fad3e3e1533"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[EnturAPIFetch FinnBusstiderFra:Til:completion:]_block_invoke_3"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/EnturAPIFetch.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "C06F1DEB-1856-4F01-B20B-AA7532B53D4B - 56a7dd00c20a1442"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_e8_32s40s"
+                  moduleName = "EnturSIRI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Eskil/Documents/Prosjekt/Xcode/Projects/EnturSIRI/EnturSIRI/EnturAPIFetch.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -14,6 +14,8 @@ import CoreLocation
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        if StartEnd.count > 0 { tableView.isHidden = NO }
         return StartEnd.count
     }
     
@@ -25,14 +27,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let Detail = celle.contentView.viewWithTag(32) as! UILabel
         Title.text! = StartEnd[indexPath.row]
         Detail.text! = FraTil
+        
+        if indexPath.row == 0 { celle.contentView.rundAv(hjorner: [.topLeft, .topRight], radius: 8)  }
+        
+        if indexPath.row == StartEnd.count-1 { celle.contentView.rundAv(hjorner: [.bottomLeft, .bottomRight], radius: 8)  }
+        
         return celle
     }
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle{
-        return .lightContent
-    }
-    
-   
     
     
     var StartEnd:Array<String> = []
@@ -53,17 +54,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        self.TableView.layer.cornerRadius = 8
+        self.TableView.isHidden = YES
+        
         let sb = UIStoryboard(name: "Main", bundle: nil)
         modalActivityIndicator = sb.instantiateViewController(withIdentifier: "ModalLoader")
         
         INPreferences.requestSiriAuthorization { (status) in
             print(status)
             //INVocabulary.shared().setVocabularyStrings([""], of: .)
+            
         }
         
         self.LocationManager.requestAlwaysAuthorization()
-        
-        // For use in foreground
         self.LocationManager.requestWhenInUseAuthorization()
         
         TilTextField.layer.cornerRadius = 8
@@ -80,7 +83,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func UpCaseFirstLetterIn(string: String) -> String {
         let FirstLetter = "\(string[string.startIndex])".uppercased()
         var str = string
-        print(FirstLetter)
         str.remove(at: string.startIndex)
         let streturn = "\(FirstLetter)\(str)"
         return streturn
@@ -96,6 +98,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             searchBarSearchButtonClicked(UpCaseFirstLetterIn(string: fra), til: UpCaseFirstLetterIn(string: til))
         }
     }
+    
     func searchBarSearchButtonClicked(_ fra: String, til: String) {
         
         self.present(modalActivityIndicator!, animated: true, completion: nil)
@@ -123,12 +126,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }else if intentUtanFra != nil{
             intentTilBruk = intentUtanFra!
         }
+        
+        let busesIntent = NextBusesIntent()
+        busesIntent.suggestedInvocationPhrase = "Show me buses from \(fra) to \(til)"
+        busesIntent.fra = fra
+        busesIntent.til = til
 
-        
-        
-        
             EnturAPIFetch().finnBusstiderFra(fra, til: til, completion: { (data) in
                 DispatchQueue.main.async {
+                    
+                    self.StartEnd.removeAll()
                     
                     self.modalActivityIndicator?.dismiss(animated: true, completion: nil)
                     
@@ -139,10 +146,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                         let patterns = NSJSONDict.value(forKeyPath: "data.trip.tripPatterns") as! NSArray
                         
                         print(patterns)
-                        
-                        
-                        var Indexes: [IndexPath] = []
-                        self.StartEnd.removeAll()
                         
                         patterns.enumerated().forEach({ (arg0) in
                             let (i, pattern) = arg0
@@ -158,17 +161,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                             let bussSlutt = self.faaFatIString(from: bussSluttDate, medDag: false) ?? "-"
                             let fulltid = "\(bussStart) - \(bussSlutt)"
                             self.StartEnd.append(fulltid)
-                            Indexes.append(IndexPath(row: i, section: 0))
                             print(fulltid)
                         })
                         self.FraTil = "\(fra) - \(til)"
                         
-                        self.TableView.beginUpdates()
-                        self.TableView.deleteRows(at: self.LastIndexes, with: .middle)
-                        self.TableView.insertRows(at: Indexes, with: .middle)
-                        self.TableView.endUpdates()
-                        
-                        self.LastIndexes = Indexes
+                        self.TableView.reloadSections(IndexSet(integer: 0), with: .middle)
                         
                         if self.StartEnd.isEmpty {
                             let al = UIAlertController(title: "Hmmm,", message: "Fann ikkje nokon bussruter", preferredStyle: .alert)
@@ -177,6 +174,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                         }else {
                             let interaksjon = INInteraction(intent: intentTilBruk, response: nil)
                             interaksjon.donate(completion: { (error) in
+                                guard error == nil else {
+                                    print("ERRORDONATINGINTENT: \(error!)")
+                                    return
+                                }
+                                print("HARDONERTINTENT VELLUKKA")
+                            })
+                            
+                            //Doner ein til fleire bussar òg
+                            let busesInteraksjon = INInteraction(intent: busesIntent, response: nil)
+                            busesInteraksjon.donate(completion: { (error) in
                                 guard error == nil else {
                                     print("ERRORDONATINGINTENT: \(error!)")
                                     return
@@ -195,7 +202,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     
     }
-    let Dagar = ["Sun", "Mån", "Tys", "Ons", "Tor", "Fre", "Lau"]
+    let Dagar = ["Sundag", "Måndag", "Tysdag", "Onsdag", "Torsdag", "Fredag", "Laurdag"]
     func faaFatIString(from: Date?, medDag:Bool) -> String?{
         if let dato = from {
             print(dato)

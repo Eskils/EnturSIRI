@@ -10,16 +10,18 @@
 #import "EnturAPIFetch.h"
 
 @implementation EnturAPIFetch
-NSString *APIURL = @"https://api.entur.org/journeyplanner/2.0/index/graphql";
-NSString *PLASSCOMPURL_original = @"https://api.entur.org/api/geocoder/1.1/autocomplete?text=";
+NSString *APIURL = @"https://api.entur.io/journey-planner/v2/graphql";
+NSString *PLASSCOMPURL_original = @"https://api.entur.io/geocoder/v1/autocomplete?text=";
 NSString *PLASSCOMPURL = @"https://api.entur.org/api/geocoder/1.1/autocomplete?text=";
 NSString *query = @"{trip(from: {[#*FROM*#]}, to: {[#*TO*#]}, modes: [bus], numTripPatterns: 20) { tripPatterns { startTime, endTime, duration, legs { distance, transportSubmode, situations, {stopPlaces {name, id, description, latitude, longitude }}}}}}";
 
 
 
 - (void)FinnBusstiderFra: (NSString*)OpprFra Til:(NSString*)OpprTil completion:(void (^)(NSDictionary *data))completion {
-    dispatch_async(dispatch_get_main_queue(), ^{
+    //dispatch_async(dispatch_get_main_queue(), ^{
         
+    //Reset querystrengen.
+    query = @"{trip(from: {[#*FROM*#]}, to: {[#*TO*#]}, modes: [bus], numTripPatterns: 20) { tripPatterns { startTime, endTime, duration, legs { distance, transportSubmode, situations, {stopPlaces {name, id, description, latitude, longitude }}}}}}";
     
     [self finnPlass:OpprFra lofteHandler:^(NSData *data) {
         NSDictionary *fraDict = [self MekkTilPlassDictionary:data];
@@ -40,8 +42,8 @@ NSString *query = @"{trip(from: {[#*FROM*#]}, to: {[#*TO*#]}, modes: [bus], numT
             }];
         }];
     }];
-    
-    });
+    //Dispatch Slutt
+    //});
     
     
     
